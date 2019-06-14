@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TableLayout
+        android:id="@+id/tabLoanLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1,2,3,4,5,6,7,8">
+
+
+
+        <TableRow
+            android:id="@+id/tabRow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:id="@+id/textApplicationNo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:padding="10dp"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textApplicationDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="10dp"
+                android:text="TextView"/>
+
+            <TextView
+                android:id="@+id/textBranch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:padding="10dp"
+                android:inputType="number"
+                android:text="TextView"/>
+            <TextView
+                android:id="@+id/textBorrowerName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:padding="10dp"
+                android:text="TextView"/>
+            <TextView
+                android:id="@+id/textCoBorrowerName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="4"
+                android:padding="10dp"
+                android:text="TextView"/>
+            <TextView
+                android:id="@+id/textLoanProduct"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:padding="10dp"
+                android:text="TextView"/>
+            <TextView
+                android:id="@+id/textLoanPurpose"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="6"
+                android:padding="10dp"
+                android:text="TextView" />
+            <TextView
+                android:id="@+id/textStatus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="7"
+                android:padding="10dp"
+                android:text="TextView" />
+
+            <!--Developed By Debmalya-->
+            <!--<Button-->
+                <!--android:id="@+id/eliCheck"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Check"-->
+                <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintEnd_toEndOf="parent" />-->
+            <!--Ended By Debmalya-->
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="1px"
+            android:background="#00FF00">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_span="2"
+                android:text=""></TextView>
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

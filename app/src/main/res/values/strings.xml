@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">ENFINSApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_collection_point">Collection Point</string>
+    <string name="menu_member">Member</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string-array name="collection_days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="bulletLoanList">
+        <item>4</item>
+    </string-array>
+
+    <string-array name="businessLoanList">
+        <item>11</item>
+        <item>17</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+
+    <string-array name="ordinaryBusinessLoanList">
+        <item>11</item>
+    </string-array>
+
+    <string-array name="perosnalLoanList">
+        <item>12</item>
+        <item>18</item>
+        <item>24</item>
+        <item>36</item>
+    </string-array>
+
+    <string-array name="smallBusinessLoanList">
+        <item>23</item>
+    </string-array>
+
+    <string-array name="smallBusinessLoanWeeklyList">
+        <item>45</item>
+    </string-array>
+
+    <string-array name="installmentPeriodList">
+        <item>1</item>
+        <item>6</item>
+        <item>11</item>
+        <item>17</item>
+        <item>12</item>
+        <item>24</item>
+        <item>36</item>
+    </string-array>
+
+    <string name="header_cp_list">List of Collection Points</string>
+    <string name="header_member_list">List of Members</string>
+</resources>
